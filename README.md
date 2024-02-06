@@ -10,17 +10,12 @@
 # **Diseño:**
 <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_base.png" width="112" height="50" alt="Azul base"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_fondo.png" width="112" height="50" alt="Azul fondo"><img src="https://github.com/serijio/Fountain-Go/blob/main/letra.png" width="112" height="50" alt="Azul letra"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo2.png" width="112" height="50" alt="Azul circulo 2"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo4.png" width="112" height="50" alt="Azul circulo 4"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo5.png" width="112" height="50" alt="Azul circulo 5"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo6.png" width="112" height="50" alt="Azul circulo 6"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo3.png" width="112" height="50" alt="Azul circulo 6"><img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo1.png" width="112" height="50" alt="Azul circulo 1">
 
-- **Colorimetría**: los colores principales de **Fountain&GO** son diferentes tonalidades de azul: el amarillo `#FFCA41` y el negro `#000000`.
+- **Colorimetría**: la elección del azul (con sus diversas variaciones) fue una decisión simple. El agua se asocia comúnmente con este color; y como la aplicación gira en torno a las fuentes, era la opción más evidente. No obstante, la utilización de un solo tono puede resultar en un diseño demasiado "vacío"; ocurriendo lo inverso en caso de usar demasiado colorido. Es por esto que el número de tonalidades y su colocación están pensadas para generar armonía y evitar la sobrecarga visual. Los colores principales de **Fountain&GO** son:
   + Fondo de diversas pantallas: &ensp; `#b8ecec` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_fondo.png" width="15" height="15" alt="Azul fondo">
   + Títulos y fondo del logotipo: &ensp; `#1c46b4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_base.png" width="15" height="15" alt="Azul base">
   + Letras de botones: &ensp; `#12c0e7` <img src="https://github.com/serijio/Fountain-Go/blob/main/letra.png" width="15" height="15" alt="Azul letra">
-  + Otros tonos del fondo: &ensp; `#708cbc` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo2.png" width="15" height="15" alt="Azul circulo 2"> &ensp;`#78b4dc` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo4.png" width="15" height="15" alt="Azul circulo 4"> &ensp;`#309ce4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo5.png" width="15" height="15" alt="Azul circulo 5"> &ensp;`#b8ccec` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo6.png" width="15" height="15" alt="Azul circulo 6"> &ensp;`#507cb4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo3.png" width="15" height="15" alt="Azul circulo 3"> &ensp;`#18c4e4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo1.png" width="15" height="15" alt="Azul circulo 1">
-  <br/>
-  <details>
-  <summary>Leer más</summary>
-  La elección del azul (con sus diversas variaciones) fue una decisión simple. El agua se asocia comúnmente con este color; y como la aplicación gira en torno a las fuentes, era la opción más evidente. No obstante, la utilización de un solo tono puede resultar en un diseño demasiado "vacío"; ocurriendo lo inverso en caso de usar demasiado colorido. Es por esto que el número de tonalidades y su colocación están pensadas para generar armonía y evitar la sobrecarga visual.
-</details>
-<br/>
+  + Otros tonos del fondo: &ensp; `#708cbc` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo2.png" width="15" height="15" alt="Azul circulo 2"> &ensp;`#78b4dc` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo4.png" width="15" height="15" alt="Azul circulo 4"> &ensp;`#309ce4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo5.png" width="15" height="15" alt="Azul circulo 5"> &ensp;`#b8ccec` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo6.png" width="15" height="15" alt="Azul circulo 6"> &ensp;`#507cb4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo3.png" width="15" height="15" alt="Azul circulo 3"> &ensp;`#18c4e4` <img src="https://github.com/serijio/Fountain-Go/blob/main/azul_circulo1.png" width="15" height="15" alt="Azul circulo 1"> <br/>
+  
   
 - **Fuentes**: se han utilizado las fuentes “*Jua*” (para los títulos) y “*Kanit*” (para el resto de textos, similar a utilizar “*Calibri”* o “*Arial”* en un documento de texto). “*Jua”* otorga a las letras una forma redondeada, recordando al flujo del agua.
 
@@ -60,11 +55,11 @@ Dentro de la aplicación, hay 3 tipos de usuarios:
 ### Usuario común
   <details>
   <summary>Leer más</summary>
-    - Ver el mapa con las fuentes disponibles
-    - Crear una cuenta
-    - Modificar los datos de su cuenta
-    - Enviar sugerencias de fuentes
-    - Guardar fuentes en favoritos
+    - Ver el mapa con las fuentes disponibles <br/>
+    - Crear una cuenta <br/>
+    - Modificar los datos de su cuenta <br/>
+    - Enviar sugerencias de fuentes <br/>
+    - Guardar fuentes en favoritos <br/>
   </details>
  
 ### Usuario que no se ha identificado
@@ -76,6 +71,6 @@ Dentro de la aplicación, hay 3 tipos de usuarios:
 <br/>
 
 > [!TIP]
-> Para más información acerca del funcionamiento de la aplicación, descargar el zip con el proyecto de Android Studio [F&GO zip]()
+> Para más información acerca del funcionamiento de la aplicación, descargar el zip con el proyecto de Android Studio [F&GO zip](https://github.com/serijio/Fountain-Go/blob/main/FOUNTAINandGOSinComentar.zip)
 
 [^1]: Para conocer más acerca de mi compañero, visitar su perfil de GitHub [LordGrim551](https://github.com/LordGrim551)
