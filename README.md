@@ -1,7 +1,7 @@
 # **Fountain-Go**
 *Date amor, bebe agua*
 
-| [![Fountain&GO](https://github.com/serijio/Fountain-Go/blob/main/final_logo.png)](https://github.com/serijio/Fountain-Go) | Fountain&GO, aplicación creada y realizada en equipo junto a mi compañero @LordGrim551, nació con el objetivo de proporcionar a las personas de cualquier país la facilidad de localizar fuentes de agua potable allá donde estén; evitando así el gasto innecesario en botellas de plástico desechables. |
+| [![Fountain&GO](https://github.com/serijio/Fountain-Go/blob/main/final_logo.png)](https://github.com/serijio/Fountain-Go) | Fountain&GO, aplicación creada y realizada en equipo junto a mi compañero @LordGrim551 [^1], nació con el objetivo de proporcionar a las personas de cualquier país la facilidad de localizar fuentes de agua potable allá donde estén; evitando así el gasto innecesario en botellas de plástico desechables. |
 | --- | --- |
 
 <br/>
@@ -43,44 +43,39 @@ Dentro de **Fountain&GO**, las principales pantallas son:
 <br/>
 
 > [!NOTE]
-> Estas pantallas son las de un usuario por defecto
+> Estas pantallas son las de un usuario por defecto, leer tipos de usuarios para más información
 
 <br/>
 <br/>
 
-# **Actividades Android y organización**
-Para una mejor explicación, la organización se va a dividir en pantallas independientes y pantallas dependientes de la barra de navegación (con sus respectivas subpantallas).
+# **Usuarios y sus permisos**
+Dentro de la aplicación, hay 3 tipos de usuarios:
 
-### Pantallas independientes
+### Administrador
+  <details>
+  <summary>Leer más</summary>
+    Los únicos administradores en este momento somos mi compañero y yo. Como programadores de Fountain&GO, tenemos el poder de gestionar todas las pantallas, cuentas de usuario que existan en la base de datos e información de las fuentes publicadas, entre otras.
+  </details>
 
-- **SplashScreen**: primera pantalla de la aplicación, presenta una animación de carga con el logotipo y el nombre
-- **StartScreen**: ofrece la opción de iniciar sesión de 3 formas distintas
-- **LoginScreen**: pantalla de inicio de sesión propia de la aplicación
-- **RegisterScreen**: pantalla de registro propia de la aplicación
-- **PreferencesScreen**: después de que un nuevo usuario introduzca los datos requeridos, se le solicitará información acerca de sus intereses
-- **MiddleSplashScreen**: pantalla de carga intermedia entre la de preferencias y la principal
+### Usuario común
+  <details>
+  <summary>Leer más</summary>
+    - Ver el mapa con las fuentes disponibles
+    - Crear una cuenta
+    - Modificar los datos de su cuenta
+    - Enviar sugerencias de fuentes
+    - Guardar fuentes en favoritos
+  </details>
+ 
+### Usuario que no se ha identificado
+  <details>
+  <summary>Leer más</summary>
+    - Ver el mapa con las fuentes disponibles
+  </details>
 
 <br/>
 
-### Pantallas dependientes de la barra de navegación:
+> [!TIP]
+> Para más información acerca del funcionamiento de la aplicación, descargar el zip con el proyecto de Android Studio [F&GO zip]()
 
-- **MainActivityScreen**: pantalla principal de la aplicación; tanto a los nuevos usuarios como a los ya existentes se les redirige aquí después de introducir sus credenciales
-    - **MainActivityScreen - See all selected** [^1]
-        - MainActivityScreen - See all selected - Categories
-- **SavedScreen**: pantalla que muestra los productos que el usuario ha marcado (no implica que se vayan a adquirir en el momento del marcado)
-- **AddProductScreen**: pantalla que permite agregar un nuevo *TruequeProducto* al perfil del usuario
-    - **CategoryScreen**: sub pantalla para seleccionar la categoría del producto
-    - **BrandScreen**: sub pantalla para seleccionar la marca del producto
-- **MessagesScreen**: pantalla que almacena las conversaciones entre usuarios, además de otras notificaciones (como interacciones de usuarios con los productos, actualizaciones de la aplicación...)
-    - **ChatScreen**: sub pantalla individual de cada chat
-- **UserScreen**: pantalla personal de cada usuario, donde se muestra su información y se ofrece la posibilidad de cambiar datos
-    - **SettingsScreen**: sub pantalla para modificar los ajustes
-    - **TruequePointsProScreen**: sub pantalla para suscribirse al servicio premium de *TruequeWorld*
-    - **UserDetailsScreen**: sub pantalla para modificar los datos del usuario
-    - **PrivacityScreen**: sub pantalla para ver los tratados de privacidad y protección de datos de la aplicación
-    - **MyWalletScreen**: sub pantalla para añadir o eliminar tarjetas de crédito; indica también el saldo actual introducido en la aplicación
-
-  <br/>
-  <br/>
-
-[^1]: Para conocer más detalles acerca de las pantallas, acceder al pdf del [Figma](https://github.com/TheRockex/TruequeWorld/blob/main/TruequeWorld.pdf)
+[^1]: Para conocer más acerca de mi compañero, visitar su perfil de GitHub [LordGrim551](https://github.com/LordGrim551)
